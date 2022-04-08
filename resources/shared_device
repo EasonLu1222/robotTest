@@ -1,0 +1,18 @@
+# ---------------------- #
+# ALL DEVICE INFORMATION #
+# ---------------------- #
+
+[device_1]
+tags = android
+appium_port = 4723
+id = PNXGAP3882500122
+os = 12
+manufacturer = nokia
+
+
+[device_2]
+tags = ios
+appium_port = 4723
+id = c8dfdfe41afa3e3e691092b6e3f98811dff6fb76
+os = 14.1
+device_name = iPhone X

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.9.12 on win32)" generated="20220408 19:54:07.847" rpa="false" schemaversion="2">
+<suite id="s1" name="Android" source="C:\Users\EasonYTLu\PycharmProjects\robotTest\testsuites\android">
+<suite id="s1-s1" name="Logout" source="C:\Users\EasonYTLu\PycharmProjects\robotTest\testsuites\android\logout">
+<suite id="s1-s1-s1" name="Test" source="C:\Users\EasonYTLu\PycharmProjects\robotTest\testsuites\android\logout\test.robot">
+<test id="s1-s1-s1-t1" name="Test Case 1">
+<kw name="Get Account Info" library="get_Account_Info_function">
+<var>${region}</var>
+<var>${brand}</var>
+<var>${login_account}</var>
+<var>${login_password}</var>
+<var>${pin}</var>
+<arg>${ACCOUNT_ID}</arg>
+<kw name="Get Account Attribute Value From Id" library="pythonLibraryFunction">
+<var>${REGION}</var>
+<arg>${ACCOUNT_ID}</arg>
+<arg>region</arg>
+<msg timestamp="20220408 19:54:08.083" level="INFO">&lt;bound method RawConfigParser.sections of &lt;configparser.ConfigParser object at 0x0000021708E3CD00&gt;&gt;</msg>
+<msg timestamp="20220408 19:54:08.083" level="INFO">${REGION} = EMEA</msg>
+<status status="PASS" starttime="20220408 19:54:08.083" endtime="20220408 19:54:08.083"/>
+</kw>
+<kw name="Get Account Attribute Value From Id" library="pythonLibraryFunction">
+<var>${BRAND}</var>
+<arg>${ACCOUNT_ID}</arg>
+<arg>brand</arg>
+<msg timestamp="20220408 19:54:08.083" level="INFO">&lt;bound method RawConfigParser.sections of &lt;configparser.ConfigParser object at 0x0000021708E48100&gt;&gt;</msg>
+<msg timestamp="20220408 19:54:08.083" level="INFO">${BRAND} = FIAT</msg>
+<status status="PASS" starttime="20220408 19:54:08.083" endtime="20220408 19:54:08.083"/>
+</kw>
+<kw name="Get Account Attribute Value From Id" library="pythonLibraryFunction">
+<var>${ACCOUNT}</var>
+<arg>${ACCOUNT_ID}</arg>
+<arg>account</arg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">&lt;bound method RawConfigParser.sections of &lt;configparser.ConfigParser object at 0x0000021708E73730&gt;&gt;</msg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${ACCOUNT} = fcaswfactory01@mailinator.com</msg>
+<status status="PASS" starttime="20220408 19:54:08.083" endtime="20220408 19:54:08.098"/>
+</kw>
+<kw name="Get Account Attribute Value From Id" library="pythonLibraryFunction">
+<var>${PASSWORD}</var>
+<arg>${ACCOUNT_ID}</arg>
+<arg>password</arg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">&lt;bound method RawConfigParser.sections of &lt;configparser.ConfigParser object at 0x0000021708E3CFD0&gt;&gt;</msg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${PASSWORD} = da1@Otto</msg>
+<status status="PASS" starttime="20220408 19:54:08.098" endtime="20220408 19:54:08.098"/>
+</kw>
+<kw name="Get Account Attribute Value From Id" library="pythonLibraryFunction">
+<var>${PIN}</var>
+<arg>${ACCOUNT_ID}</arg>
+<arg>pin</arg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">&lt;bound method RawConfigParser.sections of &lt;configparser.ConfigParser object at 0x0000021708E73820&gt;&gt;</msg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${PIN} = 1111</msg>
+<status status="PASS" starttime="20220408 19:54:08.098" endtime="20220408 19:54:08.098"/>
+</kw>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${region} = EMEA</msg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${brand} = FIAT</msg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${login_account} = fcaswfactory01@mailinator.com</msg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${login_password} = da1@Otto</msg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${pin} = 1111</msg>
+<status status="PASS" starttime="20220408 19:54:08.083" endtime="20220408 19:54:08.098"/>
+</kw>
+<status status="PASS" starttime="20220408 19:54:08.083" endtime="20220408 19:54:08.098"/>
+</test>
+<test id="s1-s1-s1-t2" name="Test Case 2">
+<kw name="Get Android Device" library="device_connect_set_function">
+<kw name="Get Android Device Value From Set" library="pythonLibraryFunction">
+<var>${PORT}</var>
+<arg>appium_port</arg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">&lt;bound method RawConfigParser.sections of &lt;configparser.ConfigParser object at 0x0000021708E8D460&gt;&gt;
+{'device_1.tags': 'android', 'device_1.appium_port': '4723', 'device_1.id': 'PNXGAP3882500122', 'device_1.os': '12', 'device_1.manufacturer': 'nokia', 'device_2.tags': 'ios', 'device_2.appium_port': '4723', 'device_2.id': 'c8dfdfe41afa3e3e691092b6e3f98811dff6fb76', 'device_2.os': '14.1', 'device_2.device_name': 'iPhone X'}</msg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${PORT} = 4723</msg>
+<status status="PASS" starttime="20220408 19:54:08.098" endtime="20220408 19:54:08.098"/>
+</kw>
+<kw name="Get Android Device Value From Set" library="pythonLibraryFunction">
+<var>${ID}</var>
+<arg>id</arg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">&lt;bound method RawConfigParser.sections of &lt;configparser.ConfigParser object at 0x0000021708E8D730&gt;&gt;
+{'device_1.tags': 'android', 'device_1.appium_port': '4723', 'device_1.id': 'PNXGAP3882500122', 'device_1.os': '12', 'device_1.manufacturer': 'nokia', 'device_2.tags': 'ios', 'device_2.appium_port': '4723', 'device_2.id': 'c8dfdfe41afa3e3e691092b6e3f98811dff6fb76', 'device_2.os': '14.1', 'device_2.device_name': 'iPhone X'}</msg>
+<msg timestamp="20220408 19:54:08.098" level="INFO">${ID} = PNXGAP3882500122</msg>
+<status status="PASS" starttime="20220408 19:54:08.098" endtime="20220408 19:54:08.098"/>
+</kw>
+<status status="PASS" starttime="20220408 19:54:08.098" endtime="20220408 19:54:08.098"/>
+</kw>
+<status status="PASS" starttime="20220408 19:54:08.098" endtime="20220408 19:54:08.098"/>
+</test>
+<status status="PASS" starttime="20220408 19:54:07.879" endtime="20220408 19:54:08.098"/>
+</suite>
+<status status="PASS" starttime="20220408 19:54:07.879" endtime="20220408 19:54:08.098"/>
+</suite>
+<status status="PASS" starttime="20220408 19:54:07.847" endtime="20220408 19:54:08.098"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Android">Android</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Logout">Android.Logout</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1-s1" name="Test">Android.Logout.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

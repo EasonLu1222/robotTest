@@ -1,0 +1,53 @@
+# ---------------------- #
+# ALL ACCOUNT INFORMATION #
+# ---------------------- #
+
+# BEV_FCA_CAR
+[ACCOUNT_1]
+tag = FCA,BEV,single-car
+id = 1
+region = EMEA
+brand = FIAT
+account = fcaswfactory01@mailinator.com
+password = da1@Otto
+pin = 1111
+
+# ICE_FCA_CAR
+[ACCOUNT_2]
+tag = FCA,unkown power,single-car
+id = 2
+region = NAFTA
+brand = JEEP
+account = spaceapp@mailinator.com
+password = Uconnect1
+pin = 1111
+
+# ICE_FCA_CAR
+[ACCOUNT_3]
+tag = FCA,fuel power,double-car
+id = 3
+region = EMEA
+brand = JEEP
+account = fcaswfactory01@mailinator.com
+password = da1@Otto
+pin = 1111
+
+; # PHEV_FCA_CAR
+; [ACCOUNT_3]
+; tag = FCA,single-car
+; id = 3
+; region = EMEA
+; brand = FIAT
+; account = fcaswfactory01@mailinator.com
+; passsord = da1@Otto
+; pin = 1111
+
+# ICE_FCA_CAR, No_available_subscribe
+[ACCOUNT_4]
+tag = FCA,none-car
+id = 4
+region = NAFTA
+brand = JEEP
+account = fcaswfactory01@mailinator.com
+password = da1@Otto
+pin = 1111
